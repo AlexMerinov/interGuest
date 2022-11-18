@@ -167,4 +167,15 @@
          }
       }
    }
+
+   &--12 {
+      &:hover {
+         .svg-go-left {
+            transform: translateX(-10px);
+         }
+         .svg-go-right {
+            transform: translateX(10px);
+         }
+      }
+   }
 }
