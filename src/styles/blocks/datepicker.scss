@@ -1,9 +1,8 @@
 .ui-datepicker {
    position: absolute;
-   display: none;
+   display: flex;
    flex-direction: column;
    background-color: #FFF;
-   padding: 20px;
    z-index: 99 !important;
    left: 50% !important;
    top: 50% !important;
@@ -13,6 +12,10 @@
       flex-direction: row;
       transform: translateX(-50%);
    }
+}
+
+.ui-datepicker-group-first, .ui-datepicker-group-last {
+   padding: 20px;
 }
 
 .ui-datepicker-calendar {
