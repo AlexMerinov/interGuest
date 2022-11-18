@@ -97,6 +97,8 @@
 
 .ui-datepicker-next {
    margin-left: auto;
+   display: flex;
+   justify-content: end;
    span {
       background: url(../images/icons/arrow-right.svg) center no-repeat;
    }
