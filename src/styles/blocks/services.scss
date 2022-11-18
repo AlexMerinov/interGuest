@@ -32,12 +32,139 @@
       text-transform: uppercase;
       color: $primary;
    }
-   .clock-rotate {
+
+   .svg {
       transition: all 0.2s linear;
+      transform-origin: center;
+      transform-box: fill-box;
    }
-   &:hover {
-      .clock-rotate {
-         transform: rotate(10deg);
+
+   &--1{
+      .path-top,.path-bottom{
+        transition: .3s;
+       
+        transform-box: fill-box;
+     }
+     .path-top{
+        transform-origin: 37px 37px;
+     }
+     .path-bottom{
+        transform-origin: 27px 22px;
+     }
+  }
+  &--1:hover{
+     .path-top{
+        transform: rotate(92deg);
+     }
+     .path-bottom{
+        transform: rotate(92deg);
+     }
+  }
+  &--2{
+     .path-left{
+        transition: .3s;
+     }
+     .path-left-rotate{
+        transition: .3s;    
+        transform-origin: center;
+        transform-box: fill-box;
+     }
+     &:hover{
+       
+        .path-left{
+           transform: translateX(-15px);
+        }
+        .path-left-rotate{
+           transform: translateX(-15px) rotate(300deg);
+        }
+     }
+  }
+  &--3{
+     &:not(:hover) .path-top{
+        transform: translateY(5px);
+        opacity: 0;
+     }
+     .path-top{
+        transition: .3s;
+       
+     }
+  }
+  &--4{
+     .path-scale{
+        transform-origin: center;
+        transform-box: fill-box;
+        transition: .3s;
+     }
+     &:hover{
+        .path-scale{
+           transform: scaleX(1.2);
+        }
+     }
+     // svg{
+     //    transition: .3s;
+     // }
+     // &:hover{
+     //    svg{
+     //       transform: scaleX(1.1);
+     //    }
+     // }
+  }
+  &--7{
+     .path-bottom{
+        transition: .3s;
+        transform-origin: top;
+        transform-box: fill-box;
+     }
+     .path-top{
+        transition: .3s;
+        transform-origin: top;
+        transform-box: fill-box;
+     }
+     &:hover{
+        .path-bottom{
+           transform: scale(1.1) translateY(-5px);
+        }
+        .path-top{
+           transform: scale(.9) translateY(5px);
+        }
+     }
+  }
+  &--8{
+     .path-fill,.path-blue{
+        transition: .3s;
+     }
+     &:hover{
+        .path-fill{
+           fill: #0088D4 !important;
+        }
+        .path-blue{
+           fill: #193193 !important;
+        }
+     }
+  }
+
+   &--10 {
+      &:hover {
+         .svg-rotate-left {
+            transform: rotate(7deg);
+         }
+         .svg-rotate-right {
+            transform: rotate(-7deg);
+         }
+         .svg-rotate {
+            transform: rotate(90deg);
+         }
+      }
+   }
+
+   &--11 {
+      &:hover {
+         .svg-go-left {
+            transform: translateX(-5px);
+         }
+         .svg-go-right {
+            transform: translateX(5px);
+         }
       }
    }
 }
