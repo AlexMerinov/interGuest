@@ -1,5 +1,6 @@
 .ui-datepicker {
-   display: flex;
+   position: absolute;
+   display: none;
    flex-direction: column;
    background-color: #FFF;
    padding: 20px;
