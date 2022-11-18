@@ -10,7 +10,7 @@ window.app.MapInit = () => {
 
       let placemark = new ymaps.Placemark(center, {}, {
          iconLayout: 'default#image',
-         iconImageHref: '/images/icons/map-pin.svg',
+         iconImageHref: '../images/icons/map-pin.svg',
          iconImageSize: [52, 69],
          iconImageOffset: [-25, -65]
       });
