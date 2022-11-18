@@ -10,7 +10,7 @@ body {
       border: none;
       width: 80px;
       height: 80px;
-      background: url(../../images/icons/lock.svg) center no-repeat;
+      background: url(./../images/icons/lock.svg) center no-repeat;
       background-size: contain;
       transition: all 0.4s linear;
       position: fixed;
@@ -18,7 +18,7 @@ body {
       bottom: 30%;
       z-index: 30;
       &:hover {
-         background: url(../../images/icons/up_page.svg) center no-repeat;
+         background: url(./../images/icons/up_page.svg) center no-repeat;
          background-size: contain;
       }
    }
