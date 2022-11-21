@@ -772,7 +772,7 @@
          .path-top{
             animation-duration: 10s;
             animation-delay: 5s;
-            animation-name: card-aero-bot;
+            animation-name: card-aero-top;
             animation-iteration-count: infinite;
             animation-direction: alternate;
          }   
@@ -795,17 +795,17 @@
       }
 
       @media screen and (max-width: 991px) {
-         .path-fill{
-            animation-name: card-color-1;
+         .path-fill {
             animation-duration: 10s;
             animation-delay: 5s;
+            animation-name: card-color-1;
             animation-iteration-count: infinite;
             animation-direction: alternate;
          }
-         .path-blue{
-            animation-name: card-color-2;
+         .path-blue {
             animation-duration: 10s;
             animation-delay: 5s;
+            animation-name: card-color-2;
             animation-iteration-count: infinite;
             animation-direction: alternate;
          }
