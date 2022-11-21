@@ -91,7 +91,11 @@ button {
    }
 
    @media screen and (min-width: 768px) {
-      padding: 22px;
+      padding: 13px;
+   }
+
+   @media screen and (min-width: 1360px) {
+      padding: 20px;
    }
 }
 

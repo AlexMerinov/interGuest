@@ -6,6 +6,496 @@
    }
 }
 
+@keyframes card-time {
+   0% {
+      transform: rotate(0);
+   }
+
+   25% {
+      transform: rotate(0);
+   }
+
+   50% {
+      transform: rotate(92deg);
+   }
+
+   75% {
+      transform: rotate(0);
+   }
+
+   100% {
+      transform: rotate(0);
+   }
+
+}
+
+@keyframes card-bus-left {
+   0% {
+      transform: translateX(0);
+   }
+
+   25% {
+      transform: translateX(0);
+   }
+
+   50% {
+      transform: translateX(-15px);
+   }
+
+   75% {
+      transform: translateX(0);
+   }
+
+   100% {
+      transform: translateX(0);
+   }
+}
+
+@keyframes card-bus-rotate {
+   0% {
+      transform: translateX(0) rotate(0);
+   }
+
+   25% {
+      transform: translateX(0) rotate(0);
+   }
+
+   50% {
+      transform: translateX(-15px) rotate(300deg);
+   }
+
+   75% {
+      transform: translateX(0) rotate(0);
+   }
+
+   100% {
+      transform: translateX(0) rotate(0);
+   }
+}
+
+@keyframes card-wi-fi {
+   0% {
+      transform: translateY(0);
+      opacity: 1;
+   }
+
+   25% {
+      transform: translateY(0);
+      opacity: 1;
+   }
+
+   50% {
+      transform: translateY(5px);
+      opacity: 0;
+   }
+
+   75% {
+      transform: translateY(0);
+      opacity: 1;
+   }
+
+   100% {
+      transform: translateY(0);
+      opacity: 1;
+   }
+}
+
+@keyframes card-breakfast-1 {
+   0% {
+      transform: scaleX(1);
+   }
+
+   25% {
+      transform: scaleX(1);
+   }
+
+   50% {
+      transform: scaleX(1.07);
+   }
+
+   75% {
+      transform: scaleX(1);
+   }
+
+   100% {
+      transform: scaleX(1);
+   }
+}
+
+@keyframes card-breakfast-2 {
+   0% {
+      transform: scaleX(1);
+   }
+
+   25% {
+      transform: scaleX(1);
+   }
+
+   50% {
+      transform: scaleX(1.2);
+   }
+
+   75% {
+      transform: scaleX(1);
+   }
+
+   100% {
+      transform: scaleX(1);
+   }
+}
+
+@keyframes card-hand {
+   0% {
+      transform: rotate(0) translateY(0) translateX(0);
+   }
+
+   25% {
+      transform: rotate(0) translateY(0) translateX(0);
+   }
+
+   50% {
+      transform: rotate(20deg) translateY(3px) translateX(1px);
+   }
+
+   75% {
+      transform: rotate(0) translateY(0) translateX(0);
+   }
+
+   100% {
+      transform: rotate(0) translateY(0) translateX(0);
+   }
+}
+
+@keyframes card-clock {
+   0% {
+      opacity: 0;
+   }
+
+   35% {
+      opacity: 0;
+   }
+
+   50% {
+      opacity: 1;
+   }
+
+   35% {
+      opacity: 0;
+   }
+
+   100% {
+      opacity: 0;
+   }
+}
+
+@keyframes card-down {
+   0% {
+      transform: translateY(0);
+   }
+
+   25% {
+      transform: translateY(0);
+   }
+
+   50% {
+      transform: translateY(6px);
+   }
+
+   75% {
+      transform: translateY(0);
+   }
+
+   100% {
+      transform: translateY(0);
+   }
+} 
+
+@keyframes card-up {
+   0% {
+      transform: translateY(0);
+   }
+
+   25% {
+      transform: translateY(0);
+   }
+
+   50% {
+      transform: translateY(-6px);
+   }
+
+   75% {
+      transform: translateY(0);
+   }
+
+   100% {
+      transform: translateY(0);
+   }
+}
+
+@keyframes card-aero-bot {
+   0% {
+      transform: scale(1) translateY(0);
+   }
+
+   25% {
+      transform: scale(1) translateY(0);
+   }
+
+   50% {
+      transform: scale(1.15) translateY(-5px);
+   }
+
+   75% {
+      transform: scale(1) translateY(0);
+   }
+
+   100% {
+      transform: scale(1) translateY(0);
+   }
+}
+
+@keyframes card-aero-top {
+   0% {
+      transform: scale(1) translateY(0);
+   }
+
+   25% {
+      transform: scale(1) translateY(0);
+   }
+
+   50% {
+      transform: scale(.85) translateY(5px);
+   }
+
+   75% {
+      transform: scale(1) translateY(0);
+   }
+
+   100% {
+      transform: scale(1) translateY(0);
+   }
+}
+
+@keyframes card-color-1 {
+   0% {
+      fill: $secondary;
+   }
+
+   25% {
+      fill: $secondary;
+   }
+
+   50% {
+      fill: #0088D4 !important;
+   }
+
+   75% {
+      fill: $secondary;
+   }
+
+   100% {
+      fill: $secondary;
+   }
+}
+
+@keyframes card-color-2 {
+   0% {
+      fill: $primary;
+   }
+
+   25% {
+      fill: $primary;
+   }
+
+   50% {
+      fill: #193193 !important;
+   }
+
+   75% {
+      fill: $primary;
+   }
+
+   100% {
+      fill: $primary;
+   }
+}
+
+@keyframes card-free {
+   0% {
+      transform: translateX(0);
+   }
+
+   25% {
+      transform: translateX(0);
+   }
+
+   50% {
+      transform: translateX(8px);
+   }
+
+   75% {
+      transform: translateX(0);
+   }
+
+   100% {
+      transform: translateX(0);
+   }
+}
+
+@keyframes card-kitchen-1 {
+   0% {
+      transform: rotate(0);
+   }
+
+   25% {
+      transform: rotate(0);
+   }
+
+   50% {
+      transform: rotate(7deg);
+   }
+
+   75% {
+      transform: rotate(0);
+   }
+
+   100% {
+      transform: rotate(0);
+   }
+}
+
+@keyframes card-kitchen-2 {
+   0% {
+      transform: rotate(0);
+   }
+
+   25% {
+      transform: rotate(0);
+   }
+
+   50% {
+      transform: rotate(-7deg);
+   }
+
+   75% {
+      transform: rotate(0);
+   }
+
+   100% {
+      transform: rotate(0);
+   }
+}
+
+@keyframes card-kitchen-3 {
+   0% {
+      transform: rotate(0);
+   }
+
+   25% {
+      transform: rotate(0);
+   }
+
+   50% {
+      transform: rotate(90deg);
+   }
+
+   75% {
+      transform: rotate(0);
+   }
+
+   100% {
+      transform: rotate(0);
+   }
+}
+
+@keyframes card-chair-left {
+   0% {
+      transform: rotate(0);
+   }
+
+   25% {
+      transform: rotate(0);
+   }
+
+   50% {
+      transform: translateX(-5px);
+   }
+
+   75% {
+      transform: rotate(0);
+   }
+
+   100% {
+      transform: rotate(0);
+   }
+}
+
+@keyframes card-chair-right {
+   0% {
+      transform: rotate(0);
+   }
+
+   25% {
+      transform: rotate(0);
+   }
+
+   50% {
+      transform: translateX(5px);
+   }
+
+   75% {
+      transform: rotate(0);
+   }
+
+   100% {
+      transform: rotate(0);
+   }
+}
+
+@keyframes card-elev-left {
+   0% {
+      transform: rotate(0);
+   }
+
+   25% {
+      transform: rotate(0);
+   }
+
+   50% {
+      transform: translateX(-10px);
+   }
+
+   75% {
+      transform: rotate(0);
+   }
+
+   100% {
+      transform: rotate(0);
+   }
+}
+
+@keyframes card-elev-right {
+   0% {
+      transform: rotate(0);
+   }
+
+   25% {
+      transform: rotate(0);
+   }
+
+   50% {
+      transform: translateX(10px);
+   }
+
+   75% {
+      transform: rotate(0);
+   }
+
+   100% {
+      transform: rotate(0);
+   }
+}
+
 .card-activities {
    display: flex;
    height: 100%;
@@ -41,53 +531,107 @@
 
    &--1{
       .path-top,.path-bottom{
-        transition: .3s;
-       
-        transform-box: fill-box;
-     }
-     .path-top{
-        transform-origin: 37px 37px;
-     }
-     .path-bottom{
-        transform-origin: 27px 22px;
-     }
-  }
-  &--1:hover{
-     .path-top{
-        transform: rotate(92deg);
-     }
-     .path-bottom{
-        transform: rotate(92deg);
-     }
-  }
+         transition: .3s linear;
+         transform-box: fill-box;
+      }
+
+      .path-top{
+         transform-origin: 37px 37px;
+      }
+      .path-bottom{
+         transform-origin: 27px 22px;
+      }
+
+      @media screen and (max-width: 991px) {
+         .path-top{
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-time;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+         }
+         .path-bottom{
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-time;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+         }
+      }
+
+      @media screen and (min-width: 992px) { 
+         &:hover{
+            .path-top{
+               transform: rotate(92deg);
+            }
+            .path-bottom{
+               transform: rotate(92deg);
+            }
+         }
+      }
+   }
+
   &--2{
-     .path-left{
-        transition: .3s;
-     }
-     .path-left-rotate{
-        transition: .3s;    
-        transform-origin: center;
-        transform-box: fill-box;
-     }
-     &:hover{
-       
-        .path-left{
-           transform: translateX(-15px);
-        }
-        .path-left-rotate{
-           transform: translateX(-15px) rotate(300deg);
-        }
-     }
+      .path-left{
+         transition: .3s;
+      }
+      .path-left-rotate{
+         transition: .3s;    
+         transform-origin: center;
+         transform-box: fill-box;
+      }
+      @media screen and (max-width: 991px) {
+         .path-left{
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-bus-left;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+         }
+         .path-left-rotate{
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-bus-rotate;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+         }
+      }
+
+      @media screen and (min-width: 992px) {
+         &:hover{
+         
+            .path-left{
+               transform: translateX(-15px);
+            }
+            .path-left-rotate{
+               transform: translateX(-15px) rotate(300deg);
+            }
+         }  
+      }
   }
   &--3{
-     &:not(:hover) .path-top{
-        transform: translateY(5px);
-        opacity: 0;
-     }
-     .path-top{
-        transition: .3s;
-       
-     }
+      &:not(:hover) .path-top{
+         transform: translateY(5px);
+         opacity: 0;
+      }
+      .path-top{
+         transition: .3s;
+      }
+      @media screen and (max-width: 991px) {
+         .path-top{
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-wi-fi;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+         }
+      }
+      @media screen and (min-width: 992px) {
+         &:not(:hover) .path-top{
+            transform: translateY(5px);
+            opacity: 0;
+         }
+      }
   }
   &--4{
      .svg {
@@ -96,13 +640,33 @@
          transition: .3s; 
      }
 
-     &:hover {
+      @media screen and (max-width: 991px) {
          .go-svg-scale {
-            transform: scaleX(1.07);
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-breakfast-1;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
          }
-
+   
          .go-svg-rotate {
-            transform: scaleX(1.2);
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-breakfast-2;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+         }
+      }
+
+      @media screen and (min-width: 992px) {
+         &:hover {
+            .go-svg-scale {
+               transform: scaleX(1.07);
+            }
+
+            .go-svg-rotate {
+               transform: scaleX(1.2);
+            }
          }
       }
   }
@@ -117,13 +681,33 @@
          opacity: 0;
       }
 
-      &:hover {
+      @media screen and (max-width: 991px) {
          .go-svg-scale {
-            transform: rotate(20deg) translateY(3px) translateX(1px);
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-hand;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
          }
-
+   
          .go-svg-opacity {
-            opacity: 1;
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-clock;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+         }
+      }
+
+      @media screen and (min-width: 992px) {
+         &:hover {
+            .go-svg-scale {
+               transform: rotate(20deg) translateY(3px) translateX(1px);
+            }
+   
+            .go-svg-opacity {
+               opacity: 1;
+            }
          }
       }
   }
@@ -135,48 +719,108 @@
          transition: .3s; 
       }
 
-      &:hover {
+      @media screen and (max-width: 991px) {
          .go-svg-down {
-            transform: translateY(6px);
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-down;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
          }
-
+   
          .go-svg-up {
-            transform: translateY(-6px);
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-up;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+         }
+      }
+
+      @media screen and (min-width: 992px) {
+         &:hover {
+            .go-svg-down {
+               transform: translateY(6px);
+            }
+   
+            .go-svg-up {
+               transform: translateY(-6px);
+            }
          }
       }
   }
   &--7{
-     .path-bottom{
-        transition: .3s;
-        transform-origin: top;
-        transform-box: fill-box;
-     }
-     .path-top{
-        transition: .3s;
-        transform-origin: top;
-        transform-box: fill-box;
-     }
-     &:hover{
-        .path-bottom{
-           transform: scale(1.1) translateY(-5px);
-        }
-        .path-top{
-           transform: scale(.9) translateY(5px);
-        }
-     }
+      .path-bottom{
+         transition: .3s;
+         transform-origin: top;
+         transform-box: fill-box;
+      }
+      .path-top{
+         transition: .3s;
+         transform-origin: top;
+         transform-box: fill-box;
+      }
+
+      @media screen and (max-width: 991px) {
+         .path-bottom{
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-aero-bot;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+         }
+         .path-top{
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-aero-bot;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+         }   
+      }
+
+      @media screen and (min-width: 992px) {
+         &:hover{
+            .path-bottom{
+               transform: scale(1.15) translateY(-5px);
+            }
+            .path-top{
+               transform: scale(.85) translateY(5px);
+            }
+         }
+      }
   }
   &--8{
-     .path-fill,.path-blue{
-        transition: .3s;
-     }
-     &:hover{
-        .path-fill{
-           fill: #0088D4 !important;
-        }
-        .path-blue{
-           fill: #193193 !important;
-        }
-     }
+      .path-fill,.path-blue{
+         transition: .3s;
+      }
+
+      @media screen and (max-width: 991px) {
+         .path-fill{
+            animation-name: card-color-1;
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+         }
+         .path-blue{
+            animation-name: card-color-2;
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+         }
+      }
+
+      @media screen and (min-width: 992px) {
+         &:hover{
+            .path-fill{
+               fill: #0088D4 !important;
+            }
+            .path-blue{
+               fill: #193193 !important;
+            }
+         }
+      }
   }
 
   &--9 {
@@ -186,45 +830,123 @@
          transform-box: fill-box;
       }
 
-      &:hover {
+      @media screen and (min-width: 992px) {
+         &:hover {
+            .go-svg-right {
+               transform: translateX(8px);
+            }
+         }
+      }
+
+      @media screen and (max-width: 991px) {
          .go-svg-right {
-            transform: translateX(8px);
+            animation-name: card-free;
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
          }
       }
   }
 
    &--10 {
-      &:hover {
+
+      @media screen and (max-width: 991px) {
          .svg-rotate-left {
-            transform: rotate(7deg);
+            animation-name: card-kitchen-1;
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
          }
          .svg-rotate-right {
-            transform: rotate(-7deg);
+            animation-name: card-kitchen-2;
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
          }
          .svg-rotate {
-            transform: rotate(90deg);
+            animation-name: card-kitchen-3;
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+         }
+      }
+
+      @media screen and (min-width: 992px) {
+         &:hover {
+            .svg-rotate-left {
+               transform: rotate(7deg);
+            }
+            .svg-rotate-right {
+               transform: rotate(-7deg);
+            }
+            .svg-rotate {
+               transform: rotate(90deg);
+            }
          }
       }
    }
 
    &--11 {
-      &:hover {
+      @media screen and (min-width: 992px) {
+         &:hover {
+            .svg-go-left {
+               transform: translateX(-5px);
+            }
+            .svg-go-right {
+               transform: translateX(5px);
+            }
+         }
+      }
+
+      @media screen and (max-width: 992px) {
          .svg-go-left {
-            transform: translateX(-5px);
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-chair-left;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
          }
          .svg-go-right {
-            transform: translateX(5px);
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-chair-right;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
          }
       }
    }
 
    &--12 {
-      &:hover {
+
+      @media screen and (min-width: 991px) {
+         &:hover {
+            .svg-go-left {
+               transform: translateX(-10px);
+            }
+            .svg-go-right {
+               transform: translateX(10px);
+            }
+         }
+      }
+
+      @media screen and (max-width: 992px) {
          .svg-go-left {
-            transform: translateX(-10px);
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-elev-left;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
          }
          .svg-go-right {
-            transform: translateX(10px);
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-name: card-elev-right;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
          }
       }
    }
