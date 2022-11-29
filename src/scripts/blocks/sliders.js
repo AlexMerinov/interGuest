@@ -17,6 +17,11 @@ window.app.Sliders = () => {
             el: '.go-js-gallery-slider-preview',
             slidesPerView: 2,
             spaceBetween: 15,
+            mousewheel: {
+               senstivity: 1,
+
+               eventsTarget: ".gallery-preview"
+            },
             scrollbar: {
                el: '.gallery-preview__scrollbar',
                draggable: true,

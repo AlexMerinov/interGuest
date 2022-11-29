@@ -117,19 +117,6 @@ const scripts = () => {
    .pipe(browserSync.stream());
 };
 
-// const scripts = () => {
-//     return gulp.src([
-//         srcFolder + '/scripts/plugins/*.js',
-//         srcFolder + '/scripts/blocks/*.js',
-//         srcFolder + '/scripts/script.js',
-//     ])
-//     .pipe(gulpConcat('script.min.js'))
-//     .pipe(gulpTerser())
-//     .pipe(gulp.dest(distFolder + '/scripts/'))
-//     .pipe(browserSync.stream());
-// };
-
-
 // Images
 
 const images = () => {

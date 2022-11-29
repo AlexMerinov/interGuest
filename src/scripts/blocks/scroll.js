@@ -7,8 +7,8 @@ window.app.Scroll = () => {
          const id = anchor.getAttribute('href');
 
          document.querySelector(id).scrollIntoView({
-               behavior: 'smooth',
-               block: 'start'
+            behavior: 'smooth',
+            block: 'start'
          });
       });
    };
